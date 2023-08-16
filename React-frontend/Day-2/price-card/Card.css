@@ -1,0 +1,142 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:blue; 
+}
+.plan-1,.plan-2,.plan-3{
+border-radius: 1rem;
+ box-shadow: 0px 10px 8px #999;
+ background-color:white;  
+ gap:1rem;
+ margin: 30px; 
+ padding: 1rem;
+}
+
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-weight: bold;
+    color: #e2dede;
+    
+}
+.card-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 1px #999;
+}
+
+.card-list-3,.card-list-1,.card-list-2 {
+    list-style-type:none;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: small;
+    
+}
+
+.card-list-3
+li:before {
+    content:"\2713\0020" ;
+    font-weight: bold;
+}
+.card-list-2
+li:before{
+    content:"\2713\0020" ;
+    font-weight: bold;
+}
+.card-list-2
+li:nth-child(8):before{
+    content:"X " ;
+    font-weight: bold;
+}
+.card-list-2
+li:nth-child(8){
+    color:#b1acac;
+}
+.card-list-1
+li:nth-child(1):before,
+li:nth-child(2):before,
+li:nth-child(3):before,
+li:nth-child(4):before {
+    content:"\2713\0020" ;
+    font-weight: bold;
+}
+.card-list-1
+li:nth-child(5):before
+{
+    content:"X " ;
+    font-weight: bold;
+    
+}
+.card-list-1
+li:nth-child(5){
+    color:#b1acac;
+    
+}
+.card-list-1
+li:nth-child(6):before
+{
+    content:"X " ;
+    font-weight: bold;
+    
+}
+.card-list-1
+li:nth-child(6){
+    color:#b1acac;
+    
+}
+.card-list-1
+li:nth-child(7):before
+{
+    content:"X " ;
+    font-weight: bold;
+}
+.card-list-1
+li:nth-child(7){
+    color:#b1acac;
+    
+}
+.card-list-1
+li:nth-child(8):before
+{
+    content:"X " ;
+    font-weight: bold;
+}
+.card-list-1
+li:nth-child(8){
+    color:#b1acac;
+    
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.card-button-1,.card-button-2,.card-button-3{
+    
+    border-radius: 5rem;
+    width: 100px;
+    height: 35px;
+}
+.card-button-1{
+    background-color: rgb(106, 106, 189);
+}
+.card-button-2{
+    background-color:rgb(105, 105, 202);
+}
+.card-button-3{
+    background-color:rgb(69, 69, 228);
+}
