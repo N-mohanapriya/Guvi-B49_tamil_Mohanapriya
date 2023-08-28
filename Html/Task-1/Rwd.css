@@ -34,7 +34,7 @@ nav{
 .maintext{
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 30vh;
     justify-content: center;
     padding: 2em;
 
@@ -85,4 +85,26 @@ padding: 5px;
 .third img{
     flex: 1;
     margin-top: 5px;
+}
+.one div{
+    display: flex;
+    padding: 5px;
+
+}
+.two div{
+    display: flex;
+}
+.one img{
+    flex: 1;
+    margin-top: 10px;
+    display: flex;
+}
+.two img{
+    flex: 1;
+    margin-top: 10px;
+    display: flex;
+}
+.three img{
+    flex: 1;
+    margin-top: 10px;
 }
