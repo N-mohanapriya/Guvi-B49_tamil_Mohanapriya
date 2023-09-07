@@ -7,8 +7,12 @@ body{
     background-image: url('../Task-1/sanitaryware/pic1.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 60vh;
+    width: 100vw;
     color:white;
+    display: flex;
+    flex-direction: column;
+    
 }
 #logo {
     text-decoration: none;
@@ -18,24 +22,32 @@ body{
     font-weight: bolder;
     font-size: 1.2em;
 }
+header a:hover{
+    color: yellowgreen;
+}
 header{
-    display: flex;
+display: flex;
+width: 100vw;
     padding: 10px;
-    align-items: center;
+
+}
+
+nav a{
+    text-decoration: none;
+    color:wheat;
 }
 nav{
     flex: 1;
     display: flex;
-    justify-content: right;
-    color:wheat;
+    justify-content: center;
     font-size: 1.2em;
     font-weight: bolder;
 }
 .maintext{
     display: flex;
     flex-direction: column;
-    height: 30vh;
     justify-content: center;
+    align-items: left;
     padding: 2em;
 
 }
@@ -50,17 +62,15 @@ nav{
 }
 .tag2{
     background-color: darkgray;
-    height: 20px;
-    width: 380px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    width: 40%;
 }
 .tag3{
     background-color: darkgray;
-    height: 20px;
-    width: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    width: 25%;
 }
 .maintext button{
     border-radius: 10px;
@@ -68,43 +78,77 @@ nav{
     color: white;
 }
 
-.maintoilet div{
+.maintoilet{
 display: flex;
 padding: 5px;
+flex-direction: column;
 }
-    
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+}
+.third{
+    display: flex;
+}
 .first img{
     flex: 1;
-    margin-top: 5px;
+    margin-top: 10px;
+    display: flex;
     
 }
 .second img{
     flex: 1;
     margin-top: 10px;
+    display: flex;
 }
 .third img{
     flex: 1;
-    margin-top: 5px;
-}
-.one div{
+    margin-top: 10px;
     display: flex;
-    padding: 5px;
-
 }
-.two div{
+.mainbasin{
     display: flex;
+    flex-direction: column;
+}
+.one{
+display: flex;
 }
 .one img{
     flex: 1;
-    margin-top: 10px;
+    padding: 5px;
     display: flex;
 }
-.two img{
-    flex: 1;
-    margin-top: 10px;
+.two{
     display: flex;
-}
-.three img{
-    flex: 1;
-    margin-top: 10px;
-}
+    }
+    .two img{
+        flex: 1;
+        padding: 5px;
+        display: flex;
+    }
+    .three{
+        display: flex;
+        }
+        .three img{
+            flex: 1;
+            padding: 5px;
+            display: flex;
+        }
+        .item1,.item2{
+            
+            padding: 2em;
+            margin-top: 10px;
+            color: grey;
+    
+            
+        }
+        img{
+            gap:5px;
+        }
+        #location{
+            background-color: lightgray;
+            color:blue;
+        }
+        
